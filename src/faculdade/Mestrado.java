@@ -3,7 +3,7 @@ package faculdade;
 
 
 public class Mestrado extends Professor{
-	private static final double plus = 3.500;
+	private static final double plus = 3.5;
 	
 	public Mestrado(String nome, int cpf, double salario, double salfinal, String nivel)  {
 		super(nome, cpf, salario, plus, salfinal);
